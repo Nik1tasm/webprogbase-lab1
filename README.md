@@ -1,4 +1,3 @@
-README
 This is a repo for my first lab
 Nikita Syromiatnikov 
 e-mail: nikitasyromiatnikov@gmail.com
