@@ -59,6 +59,7 @@ p {
     font-weight: bold;
     text-align: center;
     color: white;
+    margin: 0;
 }
 
 @-webkit-keyframes gradientBG {
