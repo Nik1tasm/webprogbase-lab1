@@ -28,8 +28,8 @@ a {
 .stick {
     z-index: 99999;
     background: white;
+    position: static;
 }
-
 
 h1 {
     font-family: "Lato";
@@ -60,6 +60,31 @@ p {
     text-align: center;
     color: white;
     margin: 0;
+}
+
+.content-element {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 1em 0 1em 0;
+}
+
+.content-element-table {
+    width: 100%;
+    font-family: "Lato";
+    font-weight: bold;
+    border-color: #2305AB;
+    border-collapse: inherit;
+}
+
+.thread-table {
+    background-color: rgb(148, 193, 199);
+}
+
+.table-body {
+    background-color: rgba(111, 184, 200, 0.5);
 }
 
 @-webkit-keyframes gradientBG {

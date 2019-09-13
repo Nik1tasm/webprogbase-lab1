@@ -14,26 +14,56 @@
 </head>
 
 <body>
-    <div class="d-flex align-items-center justify-content-around bd-highlight mt-3 sticky-top stick">
+    <div class="content-element stick">
         <img src="./images/logo_icon.png" alt="logo_icon" width=40px></img>
-        <a href="index.html">
+        <a href="/index.html">
             <p class="text-info">home</p>
         </a>
         <a href="users.html">
             <p class="text-info">users</p>
         </a>
         <a href="images.html">
-            <p class="text-info">entities</p>
+            <p class="text-info">paragraphs</p>
         </a>
         <a href="about.html">
             <p class="text-info">about</p>
         </a>
     </div>
-    <div class="d-flex align-items-center justify-content-center text-center w-100 sect">
+    <div class="content-element flex-column flex-wrap text-center w-100 sect">
         <div class="d-flex flex-column flex-wrap ">
             <h1 class="header">Users</h1>
             <p>You are watching users!</p>
         </div>
+        <table class="content-element-table">
+            <thead class="thread-table">
+                <tr>
+                    <th scope="col">№</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Paragraph</th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>@killing_spree</td>
+                    <td>John Theodorovich Wick</td>
+                    <td>How to do 'this' clean</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>@mrtrump</td>
+                    <td>Donald John Trump</td>
+                    <td>The art of deal</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>@idk_lmao</td>
+                    <td>Petrosyan Evgen Vaganovich</td>
+                    <td>Memes</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
